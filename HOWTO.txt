@@ -1,0 +1,40 @@
+Token Harbor HOWTO
+
+Short version, six steps.
+
+1. INSTALL RUST
+   Windows / Linux / macOS: https://rustup.rs  then reopen the terminal and check:
+       rustc --version
+
+2. POINT AT THE SOLVER
+   Open solver/solver.yaml and leave the address of the human-check solver there:
+       solver:
+         url: https://<your-solver-host>
+   Nothing else goes in that file. An empty or wrong address means signup cannot pass the
+   human check, and the bot will say so before it touches the site.
+
+3. BUILD
+       cargo build --release
+   or let the wrapper do it:
+       ./run.sh build
+
+4. CREATE ONE ACCOUNT
+       ./run.sh enroll 1
+   The bot opens a mailbox, asks the solver for a token, registers the account, follows
+   the verification link, switches the free models on and mints an API key. The key is
+   appended to data.txt, one key per line. The mailbox and the password of every account
+   are kept in session.json.
+   One run, one account. Run it again only when you want another one.
+
+5. LOOK BEFORE YOU CLAIM
+       ./run.sh probe
+   This reads the solver handshake, the egress address and the site, nothing else.
+
+6. RUN
+       ./run.sh run        foreground, one cycle
+       ./run.sh bg         background, log in tokenharbor-bot.log
+       ./run.sh screen     detached screen session
+       ./run.sh stop       stop the background run
+
+Optional: proxy.txt holds one proxy per line. Empty means direct. config.json holds
+sleep_seconds, the pause between cycles.
