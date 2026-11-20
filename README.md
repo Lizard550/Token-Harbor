@@ -1,6 +1,6 @@
 <div align="center">
 
-<img width="100%" alt="header" src="https://capsule-render.vercel.app/api?type=waving&height=210&text=Token%20Harbor%20Bot&fontAlign=50&fontAlignY=36&fontSize=56&desc=Auto%20Signup%20%7C%20Free%20Model%20Unlock%20%7C%20API%20Key%20%7C%20Chat%20%26%20Usage%20Report&descAlign=50&descAlignY=58"/>
+<img width="100%" alt="header" src="https://capsule-render.vercel.app/api?type=waving&height=210&text=Token%20Harbor%20Bot&fontAlign=50&fontAlignY=36&fontSize=56&desc=Auto%20Signup%20%7C%20Free%20Model%20Unlock%20%7C%20API%20Key%20%7C%20Chat%20and%20Usage%20Report&descAlign=50&descAlignY=58"/>
 
 <img alt="typing" src="https://readme-typing-svg.demolab.com?font=Inter&size=18&duration=3000&pause=650&center=true&vCenter=true&width=900&lines=Auto+Signup+via+Disposable+Inbox+%7C+Turnstile+Solver;Email+Verification+%7C+Free+Model+Unlock;API+Key+Creation+%7C+Chat+%26+Usage+Report;Enroll+Mode+%7C+Multi-Key+%7C+Proxy+Support"/>
 
@@ -19,6 +19,14 @@
 </p>
 
 </div>
+
+<hr/>
+
+<p align="center">
+  <img src="image/image.png" alt="preview" width="100%"/>
+</p>
+
+<hr/>
 
 ---
 
