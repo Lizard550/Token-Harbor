@@ -213,7 +213,7 @@ Press `Ctrl+C` once to stop the bot cleanly when running in foreground.
 Prebuilt binaries are automatically compiled on every push to main via GitHub release across 3 platforms.
 
 Download the latest binaries from the release page:
-https://github.com/Yuurisan-N1/Token-Harbor/releases/tag/v1.0.0
+https://github.com/Yuurisan-N1/Token-Harbor/releases/latest
 
 Open the latest successful run and scroll to the Artifacts section.
 
